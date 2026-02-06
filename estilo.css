@@ -1,0 +1,86 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+}
+header{
+    width: 1366px;
+    height: 150px;
+    background-color: rgb(22, 22, 22);
+    margin: 0 auto;
+    text-align: center;
+
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: rgb(164, 51, 189);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+ nav a{
+    padding: 15px 10px;
+    color:rgb(251, 149, 217);
+    text-decoration: none;
+    transition: .5s;
+    /*font: 1.5em impact;*/
+    font-family: "Jersey 15", sans-serif;
+    font-size: 40px;
+ }
+ nav a:hover{
+    background-color: rgb(98, 107, 236);
+    transform: scale(1.2);
+ }
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color: rgb(101, 101, 101);
+    margin: 0 auto;
+    background-image: url(imagenes/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+.personaje{
+    width: 1300px;
+    height: 400px;
+    background-color: rgba(174, 132, 217, 0.684);
+    margin-left: 33px;
+    margin-top: 80px;
+    display: inline-block;
+}
+.foto{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    float:left;
+    margin-left: 0px;
+    text-align: center;
+    border: 2px ridge cornsilk;
+}
+.info{
+   float: left;
+    margin-left: 33px;
+    width:800px ;
+    height: 400px;
+    float: left ;
+    margin-left: 33px;
+    padding: 30px;
+}
+info.h3{
+    margin: 20px 0px;
+}
+footer{
+    width: 1366px;
+    height: 200px;
+    background-color: bisque;
+    margin: 0 auto;
+}
