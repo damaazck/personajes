@@ -14,12 +14,11 @@ header{
     background-color: rgb(22, 22, 22);
     margin: 0 auto;
     text-align: center;
-
 }
 nav{
     width: 1366px;
     height: 50px;
-    background-color: rgb(164, 51, 189);
+    background-color: rgb(164, 50, 189);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -31,12 +30,11 @@ nav{
     color:rgb(251, 149, 217);
     text-decoration: none;
     transition: .5s;
-    /*font: 1.5em impact;*/
     font-family: "Jersey 15", sans-serif;
     font-size: 40px;
  }
  nav a:hover{
-    background-color: rgb(98, 107, 236);
+    background-color: rgb(166, 20, 173);
     transform: scale(1.2);
  }
 main{
@@ -47,7 +45,7 @@ main{
     background-image: url(imagenes/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center
+    background-position: center;
 }
 .personaje{
     width: 1300px;
@@ -66,21 +64,61 @@ main{
     text-align: center;
     border: 2px ridge cornsilk;
 }
-.info{
-   float: left;
+.info {
+    float: left;
     margin-left: 33px;
-    width:800px ;
+    width: 800px;
     height: 400px;
-    float: left ;
-    margin-left: 33px;
     padding: 30px;
+    font-family: "Jersey 15", sans-serif;
 }
-info.h3{
-    margin: 20px 0px;
+.info a{
+    text-decoration: none;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 12px;
+    color:rgb(255, 208, 239);
+    padding: 5px 5px;
+    transition: .5s;
+    font-size: 25px;
+}
+.info p{
+    color: rgb(255, 208, 239);
+    font-size: 15px;
+    margin: 10px;
+}
+.info a:hover{
+    font-family: "Jersey 15", sans-serif;
+    margin-left: 10px;
+    background-color: rgb(166, 20, 173);
+    transform: scale(1.2);
+}
+.info h3{
+    font-family: "Jersey 15", sans-serif;
+    margin: 15px 0px;
+    font-size: 35px;
+    color: rgb(255, 208, 239);
 }
 footer{
     width: 1366px;
     height: 200px;
-    background-color: bisque;
+    background-color: rgb(164, 50, 189);
     margin: 0 auto;
+    font-family: "Jersey 15", sans-serif;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+footer a{
+    padding: 15px 10px;
+    color:rgb(255, 208, 239);
+    text-decoration: none;
+    transition: .5s;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 40px;
+}
+footer a:hover{
+    background-color: rgb(166, 20, 173);
+    transform: scale(1.2);
 }
